@@ -6,7 +6,7 @@ const server = express();
 
 // // // Mentioning of port number or defining it.
 // const PORT = 3000;
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000; // Use of fallback default value as 3000.
 // // // Finally, now open the Terminal and run the ls command to check the folder and files.
 // // // Then, run the command node app.js by which you will get the Output as :-
 // // // Restarting 'app.js' Now, it is coming because we have the --watch in dev that'why it is restart auto when we save.
