@@ -8,7 +8,8 @@ Step :- 3.) Creation of .gitIgnore file to make sure that node_modules package w
 
 Step :- 4.) Creation of new blank file named as app.js. And, also make sure that the package.json file should also have this ("main": "app.js") instead of this ("main": "index.js" ). Actually, it's depends on us whatever name we want to give. Give it but mention it on the package.json file's key&value as this ("main": "app.js") or anything else.
 
-Step :- 5.) 
+Step :- 5.)  Use of ES module by which we can use import and export feature instead of require.
+
 Step :- 6.) 
 Step :- 7.) 
 Step :- 8.) 

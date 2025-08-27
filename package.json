@@ -2,6 +2,7 @@
   "name": "032--send_files_and_fix__dirname_not_working_in_expjs",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
