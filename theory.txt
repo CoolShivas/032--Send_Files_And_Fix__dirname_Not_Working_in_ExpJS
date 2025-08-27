@@ -1,3 +1,8 @@
 Starting of ExpressJS step by step.
 
+Step :- 1.) Formation of package.json file using npm init command in the terminal.
+
+Step :- 2.) Installation of express using npm install express or npm i express command in the terminal.
+
+Step :- 3.) Creation of .gitIgnore file to make sure that node_modules package will not push it to gitHub repo.
 
