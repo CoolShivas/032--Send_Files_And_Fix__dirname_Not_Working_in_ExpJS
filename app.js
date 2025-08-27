@@ -5,7 +5,16 @@ import express, { response } from "express";
 const server = express();
 
 // // // Mentioning of port number or defining it.
-const PORT = 3000;
+// const PORT = 3000;
+const PORT = process.env.PORT;
+// // // Finally, now open the Terminal and run the ls command to check the folder and files.
+// // // Then, run the command node app.js by which you will get the Output as :-
+// // // Restarting 'app.js' Now, it is coming because we have the --watch in dev that'why it is restart auto when we save.
+// // // server running at 9000
+// // // Now, open any Browser and enter in URL as localhost:9000 or http://localhost:9000/
+// // // We will get the Output on Browser Display as :- Hello, in the World of SHIVAJI
+// // // http://localhost:9000/about
+// // // http://localhost:9000/contact
 
 // // // Formation of HOME PAGE showing the response.
 server.get("/", (request, response) => {
@@ -40,7 +49,3 @@ server.get("/contact", (req, res) => {
 server.listen(PORT, () => {
   console.log("server running at", PORT);
 });
-// // // Finally, now open the Terminal and run the ls command to check the folder and files.
-// // // Then, run the command node app.js by which you will get the Output as :- server running at 3000
-// // // Now, open any Browser and enter in URL as localhost:3000 or http://localhost:3000/
-// // // We will get the Output on Browser Display as :- Hello, in the World of SHIVAJI

@@ -12,8 +12,9 @@ Step :- 5.)  Use of ES module by which we can use import and export feature inst
 
 Step :- 6.) Automatically, ExpressJS understand itself most of the things such as (Request Method GET; Status Code 200 OK;content-type text/html; charset=utf-8; and multi-line code). Previously, we have to defined this things in NodeJS.
 
-Step :- 7.) 
-Step :- 8.) 
+Step :- 7.) Use of .env file to hide sensitive information or data from others. So, firstly create the .env file and mention about the (PORT=4000) in the root directory of project. Secondly, open the app.js and instead of (const PORT = 3000;) use this (const PORT = process.env.PORT;). Thirdly, open the package.json file and mention about the dev such as ("shiva": "node --env-file=.env --watch app.js"). And, finally don't forgot to add this (.env in the .gitIgnore file)  run the project again. 
+
+Step :- 8.)
 Step :- 9.) 
 Step :- 10.) 
 Step :- 11.) 
