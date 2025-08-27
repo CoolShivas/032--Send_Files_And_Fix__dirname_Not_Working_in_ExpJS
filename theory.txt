@@ -16,7 +16,8 @@ Step :- 7.) Use of .env file to hide sensitive information or data from others. 
 
 Step :- 8.) Use of .env-example file to show what are the thing been hidden. To make the other dev about these important things. And, use of fallback default port number as 3000 if something wrong to render/continue on 3000.
 
-Step :- 9.) 
+Step :- 9.) Use of validation in PORT. Whether, the PORT variable is having a number or string. If it going to be string then convert it into number or given the fallback number in the new file named as environ.js file with some validation on PORT. And, now it is importing to app.js file (import { PORT } from "./environ.js";) to be used in listen the server.
+
 Step :- 10.) 
 Step :- 11.) 
 Step :- 12.) 

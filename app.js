@@ -1,20 +1,9 @@
 // const express = require("express");
 import express, { response } from "express";
+import { PORT } from "./environ.js";
 
 // // // Created instance for express.
 const server = express();
-
-// // // Mentioning of port number or defining it.
-// const PORT = 3000;
-const PORT = process.env.PORT || 3000; // Use of fallback default value as 3000.
-// // // Finally, now open the Terminal and run the ls command to check the folder and files.
-// // // Then, run the command node app.js by which you will get the Output as :-
-// // // Restarting 'app.js' Now, it is coming because we have the --watch in dev that'why it is restart auto when we save.
-// // // server running at 9000
-// // // Now, open any Browser and enter in URL as localhost:9000 or http://localhost:9000/
-// // // We will get the Output on Browser Display as :- Hello, in the World of SHIVAJI
-// // // http://localhost:9000/about
-// // // http://localhost:9000/contact
 
 // // // Formation of HOME PAGE showing the response.
 server.get("/", (request, response) => {
