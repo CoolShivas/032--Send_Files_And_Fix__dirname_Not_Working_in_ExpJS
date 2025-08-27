@@ -6,3 +6,13 @@ Step :- 2.) Installation of express using npm install express or npm i express c
 
 Step :- 3.) Creation of .gitIgnore file to make sure that node_modules package will not push it to gitHub repo.
 
+Step :- 4.) Creation of new blank file named as app.js. And, also make sure that the package.json file should also have this ("main": "app.js") instead of this ("main": "index.js" ). Actually, it's depends on us whatever name we want to give. Give it but mention it on the package.json file's key&value as this ("main": "app.js") or anything else.
+
+Step :- 5.) 
+Step :- 6.) 
+Step :- 7.) 
+Step :- 8.) 
+Step :- 9.) 
+Step :- 10.) 
+Step :- 11.) 
+Step :- 12.) 
