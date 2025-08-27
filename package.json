@@ -1,0 +1,19 @@
+{
+  "name": "032--send_files_and_fix__dirname_not_working_in_expjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoolShivas/032--Send_Files_And_Fix__dirname_Not_Working_in_ExpJS.git"
+  },
+  "author": "Shivaji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoolShivas/032--Send_Files_And_Fix__dirname_Not_Working_in_ExpJS/issues"
+  },
+  "homepage": "https://github.com/CoolShivas/032--Send_Files_And_Fix__dirname_Not_Working_in_ExpJS#readme",
+  "description": ""
+}
