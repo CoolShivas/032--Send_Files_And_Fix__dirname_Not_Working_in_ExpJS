@@ -19,6 +19,7 @@
   "homepage": "https://github.com/CoolShivas/032--Send_Files_And_Fix__dirname_Not_Working_in_ExpJS#readme",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "zod": "^4.1.4"
   }
 }
